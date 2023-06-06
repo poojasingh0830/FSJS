@@ -1,0 +1,775 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.wrapper{
+  min-height: 550px;
+  background-image: url(./Assets/Photos/futuristic-bg.png);
+  background-repeat: no-repeat;
+  background-size:1200px 100%;
+  background-position: center;
+  padding-top:20px;
+}
+
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #a8a5a6;
+}
+
+nav .logo{
+    position: relative;
+    left: 120px;
+}
+
+nav .menu{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    right: 50px;
+    color: #ffffff;
+}
+
+nav .menu li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav .menu li a:hover{
+    cursor: pointer;
+    color: #949191;
+    font-size: 12px;
+}
+
+nav .btns{
+    position: relative;
+    right:50px;
+}
+
+nav .orange{
+    background-color: #f4694c;
+    color: #ffffff;
+    padding: 10px 30px;
+}
+
+nav .sign-in {
+    background-color: black;
+    color:#ffffff;
+    padding: 10px 30px;
+}
+
+/* hero-section */
+
+
+
+.hero{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+
+.hero .left{
+    margin-left: 90px;
+}
+
+.hero .left .heads{
+    margin-bottom: 20px;
+    filter: brightness(250%);
+}
+
+.hero .left .heads .heads3{
+   font-size: 35px;
+}
+
+
+.hero .left .paras{
+    margin-bottom: 40px;
+}
+
+.hero .left .paras .para{
+  color: #d4cccc;
+  font-size: 12px;
+}
+
+
+.hero .left button {
+    padding: 12px 25px;
+}
+
+.hero .left .orange{
+    background-color: #f4694c;
+    color:#ffffff;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.hero .left .learn-btn{
+    background-color: transparent;
+    color:#ffffff;
+    border:1px solid white;
+}
+
+.hero .right{
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.hero .right .play-btn{
+    margin-bottom: 40px;
+    margin-left: 60px;
+}
+
+.hero .right .bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    filter: brightness(250%);
+}
+
+.hero .right .bottom p{
+    font-size: 23px;
+    color: #f5eef2;
+}
+
+.hero .right .bottom .dash-img{
+    position: relative;
+    right: 150px;
+    top: 20px;
+}
+
+.hero .right .bottom .arrow-img{
+    position: relative;
+    left:150px ;
+}
+
+/* popular games section */
+
+
+article .pop-txt{
+    text-align: center;
+    margin-top: 130px;
+    font-size: 30px;
+    
+}
+
+
+article .games-gallery{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 200px;
+    padding: 0 200px;
+}
+
+article .games-gallery button{
+    border: none;
+}
+article .games-gallery .soldier-war{
+    background-image: url(./Assets/Photos/image\ 2.png); 
+    background-repeat: no-repeat;
+    background-size: 390px 100%;
+    background-position: right center;
+    height: 300px;
+    width: 300px;
+    position: relative;
+ 
+}
+
+article .games-gallery .soldier-war .soldier-content{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #414547;
+    opacity: 0.9;
+    padding: 10px 10px;
+    
+}
+
+article .games-gallery .soldier-war .soldier-content .btn{
+    margin-bottom: 16px;
+}
+
+article .games-gallery .soldier-war .soldier-content .btn button{
+    background-color: #f4694c;
+    padding: 6px 12px;
+    color: #ffffff;
+}
+
+article .games-gallery .soldier-war .soldier-war-info-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: #ffffff;
+}
+
+article .games-gallery .soldier-war .soldier-war-info-left .para-action{
+    font-size: 12px;
+    color: #868988;
+}
+
+
+
+/*2nd game section */
+
+article .games-gallery .wariors-war{
+    background-image: url(./Assets/Photos/image\ 4.png); 
+    background-repeat: no-repeat;
+    background-size: 500px 100%;
+    background-position:center;
+    height: 300px;
+    width: 300px;
+    position: relative;
+ 
+}
+
+
+article .games-gallery .wariors-war .wariors-content{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #232219;
+    opacity: 0.9;
+    padding: 10px 10px;
+    
+}
+
+article .games-gallery .wariors-war .wariors-content .btn {
+    margin-bottom: 16px;
+}
+
+
+article .games-gallery .wariors-war .wariors-content .btn button{
+    background-color: #f4694c;
+        padding: 6px 12px;
+        color: #ffffff;
+}
+
+
+article .games-gallery .wariors-war .wariors-war-info-left {
+    display: flex;
+        flex-direction: column;
+        justify-content: start;
+        color: #ffffff;
+}
+
+
+article .games-gallery .wariors-war .wariors-war-info-left .para-action{
+    font-size: 12px;
+        color: #868988;
+}
+
+
+
+
+/* 3rd game */
+article .games-gallery .Pubjkin {
+    background-image: url(./Assets/Photos/image\ 3.png);
+    background-repeat: no-repeat;
+    background-size: 500px 100%;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    position: relative;
+
+}
+
+
+article .games-gallery .Pubjkin .Pubjkin-content {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #4d589f;
+    opacity: 0.9;
+    padding: 10px 10px;
+
+}
+
+article .games-gallery .Pubjkin .Pubjkin-content .btn {
+    margin-bottom: 16px;
+}
+
+
+article .games-gallery .Pubjkin .Pubjkin-content .btn button {
+    background-color: #f4694c;
+    padding: 6px 12px;
+    color: #ffffff;
+}
+
+
+article .games-gallery .Pubjkin .Pubjkin-info-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: #ffffff;
+}
+
+
+article .games-gallery .Pubjkin .Pubjkin-info-left .para-action {
+    font-size: 12px;
+    color: #868988;
+}
+
+
+/* 4th game */
+
+article .games-gallery .Garela {
+    background-image: url(./Assets/Photos/Rectangle\ 56.png);
+    background-repeat: no-repeat;
+    background-size: 500px 100%;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    position: relative;
+
+}
+
+
+article .games-gallery .Garela .Garela-content {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #928580;
+    opacity: 1.1;
+    padding: 10px 10px;
+
+}
+
+article .games-gallery .Garela .Garela-content .btn {
+    margin-bottom: 16px;
+}
+
+
+article .games-gallery .Garela .Garela-content .btn button {
+    background-color: #f4694c;
+    padding: 6px 12px;
+    color: #ffffff;
+}
+
+
+article .games-gallery .Garela .Garela-info-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: #ffffff;
+}
+
+
+article .games-gallery .Garela .Garela-info-left .para-action {
+    font-size: 12px;
+    color: #3b3d3c;
+}
+
+
+/* explore-section */
+
+.explore-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    gap: 80px;
+    position: relative;
+    right: 50px;
+}
+
+.explore-container .left-explore{
+    width: 500px;
+    height: 320px;
+    background-image: url(./Assets/Photos/Rectangle\ 57.png);
+    background-size: 500px 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.explore-container .right-explore{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.explore-container .right-explore .explore-heads{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+
+.explore-container .right-explore .explore-paras{
+    font-size: 12px;
+    color: #a8a8a8;
+    font-weight: 500;
+}
+
+.explore-container .right-explore button{
+    border: none;
+}
+
+.explore-container .right-explore .explore-btns .now{
+    background-color: #f4694c;
+    color: #ffffff;
+    margin-right: 20px;
+    font-weight: 600;
+    padding: 17px 35px;
+}
+
+
+.explore-container .right-explore .explore-btns .more{
+    border: 1px solid #f4694c ;
+    background-color: #ffffff;
+    color: #f4694c;
+    padding: 14px 35px;
+}
+
+
+/* download section */
+
+.download{
+    position: relative;
+    right: 50px;
+}
+
+.download .top-download {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.download .top-download .txt-download{
+    font-size: 35px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.download .top-download .arrows-btn .left-arrow{
+   padding: 16px 14px;
+   border: none;
+   background-color: #fde1db;
+   margin-right: 10px;
+}
+.download .top-download .arrows-btn .right-arrow {
+    padding: 16px 14px;
+    border: none;
+    background-color: #f4694c;
+}
+
+.upper-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 80px;
+}
+
+.upper-menu .upper-left{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+}
+
+.upper-menu .upper-left .upper-left-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.upper-menu .upper-left .upper-left-content .upper-left-heads{
+    font-size: 20px;
+}
+
+.upper-menu .upper-left .upper-left-content .upper-left-para{
+    color: #f4694c;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.upper-menu .upper-left .upper-left-content .upper-left-paras{
+    font-size: 12px;
+    color: #959595;
+}
+
+.upper-menu .upper-left .upper-left-content .upper-left-btns button{
+        background-color: #f4694c;
+        color: #ffffff;
+        margin-right: 20px;
+        font-weight: 600;
+        padding: 12px 32px;
+        border: none;
+}
+
+/* most played games */
+
+.most-played{
+    background-color: #000000;
+    padding-top: 50px;
+}
+.most-played .games-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.most-played .games-content .games-heads{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.most-played .games-content .games-heads{
+    text-align: center;
+}
+
+.most-played .games-content .games-paras{
+    color:#818489;
+    font-size: 12px;
+    margin-top: 100px;
+    margin-left: 250px;    
+
+}
+
+
+
+.most-played .bighead{
+    font-size: 80px ;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(53, 49, 49);
+    font-weight: 900;
+    margin-left: 450px;
+}
+
+.most-played .down-games{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+}
+
+.most-played .down-games .first{
+ position: relative;
+ bottom: 230px;
+ right: 55px;
+}
+
+.most-played .down-games .second{
+  position: relative;
+  bottom: 90px;
+  right:42px;
+}
+
+.most-played .down-games .third{
+  
+
+}
+
+/* get started section */
+
+.get-started{
+    background-color: #000000;
+    color: #ffffff;
+    /* margin-bottom: 100px; */
+    position: relative;
+}
+
+.get-started .get-started-banner{
+    opacity: 0.4;
+    text-align: center;
+}
+
+.get-started .get-started-content{
+   position: absolute;
+   top: 100px; 
+   left: 580px;  
+}
+
+.get-started .get-started-content .get-started-heads{
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.get-started .get-started-content .get-started-heads .get-started-head2{
+    margin-left:90px;
+}
+
+.get-started .get-started-content .get-started-paras{
+    font-size: 13px;
+    color: #7e8082;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+}
+
+.get-started .get-started-content .get-started-paras .get-started-p1{
+    margin-left: 30px;
+}
+
+.get-started .get-started-content .get-started-paras .get-started-p2{
+    margin-left: 120px;
+}
+
+.get-started .get-started-content .get-started-btn button{
+    background-color: #f4694c;
+        color: #ffffff;
+        margin-right: 20px;
+        font-weight: 600;
+        padding: 12px 32px;
+        border: none;
+        text-align: center;
+        position: relative;
+        left: 120px;
+}
+
+/* footer section */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    gap: 60px;
+  padding-right: 140px;
+  padding-top: 50px;
+padding-bottom: 50px;
+}
+
+footer p{
+    font-size: 13px;
+    color: #7a8082;
+}
+
+footer .second,.third,.fourth,.fifth{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   gap: 10px;
+}
+
+footer .second p:first-child{
+    color: white;
+}
+
+footer .third p:first-child {
+    color: white;
+}
+
+footer .fourth p:first-child {
+    color: white;
+}
+
+footer .fifth p:first-child {
+    color: white;
+}
+
+footer .third,.fourth{
+    margin-bottom: 25px;
+}
+
+footer .fifth{
+    margin-bottom: 115px;
+}
+
+footer .first{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+footer .first p{
+    font-size: 12px;
+    color: #7a8082;
+}
+
+
+
+footer .first span{
+    color:#7a8082 ;
+    font-size: 12px;
+
+}
+footer .first .first-span1{
+ margin-top: 20px;
+ margin-bottom: 5px;
+}
+
+footer .first .first-span2 {
+    margin-bottom: 30px;
+}
+
+footer .first .icons{
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+}
+
+.end{
+    background-color: black;
+    border-top: 1px solid #272929;
+    padding-bottom: 50px;
+}
+
+
+/* hover effects
+ */
+
+
+ button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s ease-out;
+    border: none;
+ }
+
+ footer p:hover{
+    cursor: pointer;
+    font-size: 12px;
+    opacity: 0.8;
+    transition: 0.3s ease-out;
+ }
+
+ footer .icons img:hover{
+    width: 28px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s ease-out;
+ }
